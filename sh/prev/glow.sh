@@ -1,3 +1,4 @@
 # markdown: glow
 
-glow -s auto -w "$w"  "$f"
+# shellcheck disable=SC2154
+glow -s auto -w "${w}"  "${f}"

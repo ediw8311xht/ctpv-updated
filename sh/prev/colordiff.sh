@@ -1,3 +1,4 @@
 # diff: colordiff
 
-colordiff < "$f"
+# shellcheck disable=SC2154
+colordiff < "${f}"

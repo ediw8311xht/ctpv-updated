@@ -1,12 +1,13 @@
 # pdf: pdftoppm
 
+# shellcheck disable=SC2154
 pdf() {
 	pdftoppm -f 1 -l 1              \
 		-scale-to-x 1920            \
 		-scale-to-y -1              \
 		-singlefile                 \
 		-jpeg \
-		-- "$f" "$cache_f" && mv -- "$cache_f.jpg" "$cache_f"
+		-- "${f}" "${cache_f}" && mv -- "${cache_f}.jpg" "${cache_f}"
 }
 
 convert_and_show_image pdf

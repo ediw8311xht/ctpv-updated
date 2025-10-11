@@ -1,3 +1,4 @@
 # text: cat
 
-cat < "$f"
+# shellcheck disable=SC2154
+cat < "${f}"

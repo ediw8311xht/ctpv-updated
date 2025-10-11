@@ -1,7 +1,8 @@
 # any: exiftool cat
 
+# shellcheck disable=SC2154
 if exists exiftool; then
-	exiftool -- "$f" || true
+	exiftool -- "${f}" || true
 else
-	cat < "$f"
+	cat < "${f}"
 fi

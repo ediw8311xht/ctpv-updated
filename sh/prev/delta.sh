@@ -1,3 +1,4 @@
 # diff: delta
 
-delta < "$f"
+# shellcheck disable=SC2154
+delta < "${f}"

@@ -1,7 +1,8 @@
 # svg: convert
 
+# shellcheck disable=SC2154
 svg() {
-	convert "$f" "jpg:$cache_f"
+	magick convert "${f}" "jpg:${cache_f}"
 }
 
 convert_and_show_image svg

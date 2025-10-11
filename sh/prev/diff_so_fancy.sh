@@ -1,3 +1,4 @@
 # diff: diff-so-fancy
 
-diff-so-fancy < "$f"
+# shellcheck disable=SC2154
+diff-so-fancy < "${f}"

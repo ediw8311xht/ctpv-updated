@@ -1,8 +1,9 @@
 # font: fontimage
 
+# shellcheck disable=SC2154
 font() {
-	fontimage -o "$cache_f.png" "$f" 2> /dev/null &&
-		mv -- "$cache_f.png" "$cache_f"
+	fontimage -o "${cache_f}.png" "${f}" 2> /dev/null &&
+		mv -- "${cache_f}.png" "${cache_f}"
 }
 
 convert_and_show_image font

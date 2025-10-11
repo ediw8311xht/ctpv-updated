@@ -1,3 +1,4 @@
 # directory: ls
 
-ls --color --group-directories-first -- "$f"
+# shellcheck disable=SC2154
+ls --color --group-directories-first -- "${f}"

@@ -1,3 +1,4 @@
 # html: lynx
 
-lynx -dump -nonumbers -nolist -width="$w" -- "$f"
+# shellcheck disable=SC2154
+lynx -dump -nonumbers -nolist -width="${w}" -- "${f}"
