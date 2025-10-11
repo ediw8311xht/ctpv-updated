@@ -1,5 +1,7 @@
-# ctpv
+# ctpv-updated
 
-very tiny personal updates to https://github.com/NikitaIvanovV/ctpv
+just personal updates to https://github.com/NikitaIvanovV/ctpv
+not sure if project is still being maintained, so i am just maintaining my own fork for personal use.
+
 
 
